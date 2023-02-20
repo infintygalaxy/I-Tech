@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Page</title>
+    <!-- Link to external stylesheet -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <div class="form-container">
+        <h1>Register</h1>
+        <!-- social media clickable buttons -->
+        <div>
+            <a href="#" class="fa fa-linkedin"></a>
+            <a href="#" class="fa fa-google"></a>
+            <a href="#" class="fa fa-facebook"></a>
+        </div>
+        <form id="user-form">
+            <div><input type="text" id="username" name="username" placeholder="Enter username" value="gaurav"></div>
+            <div><input type="email" id="email" name="email" placeholder="Enter email" value="nomail@gmail.com"></div>
+            <div><input type="password" id="password" name="password" placeholder="Enter password" value="pass@123">
+            </div>
+            <button type="button" class="btn" onclick="register_new_client()">Submit</button>
+
+        </form>
+        <div>
+            <p>Already have an account
+            <p onclick="login()">Click to Login.</p>
+            </p>
+        </div>
+    </div>
+    <!-- Registered Users details table -->
+    <table id="user-table">
+        <thead>
+            <tr>
+                <th>Sr.no</th>
+                <th>Username</th>
+                <th>Email</th>
+                <th>Password</th>
+                <th>Delete</th>
+                <th>Edit</th>
+            </tr>
+        </thead>
+    </table>
+    <!-- script   -->
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,181 @@
+/* Center all elements */
+body {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	margin: 0;
+}
+table,th,td{
+	border: solid 1px black;
+}
+
+/* Header styles */
+header {
+	text-align: center;
+	background-color: #f2f2f2;
+	padding: 20px;
+	margin-bottom: 20px;
+}
+
+/* Button styles */
+.btn {
+
+	background-color: blue;
+	color: white;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	margin-bottom: 10px;
+	width: 120px;
+}
+
+/* Form container styles */
+.form-container {
+	border: 1px solid #ccc;
+	padding: 20px;
+	text-align: center;
+}
+input{
+	text-decoration: none;
+    height: 35px;
+    border: none;
+	margin: 05px;
+	background-color: rgb(199, 193, 193);
+}
+
+.fa {
+	padding: 20px;
+	font-size: 30px;
+	width: 30px;
+	text-align: center;
+	text-decoration: none;
+	margin: 5px 2px;
+	border-radius: 50%;
+  }
+  
+  .fa:hover {
+	  opacity: 0.7;
+  }
+  
+  .fa-facebook {
+	background: #3B5998;
+	color: white;
+  }
+  .fa-google {
+	background: #dd4b39;
+	color: white;
+  }
+  .fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* * {
+	box-sizing: border-box;
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+  }
+  
+  body {
+	background-color: #2d98ca;
+  }
+header{
+	display: flex;
+	justify-content: center;
+	margin-top: 50px;
+	text-decoration: underline brown;
+}
+.btn{
+	background-color: aquamarine;
+	display: flex;
+	justify-content: center;
+}
+  .container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	
+  }
+  
+  .form-container {
+	display: flex;
+    justify-content: center;
+	background-color: #3e8e41;
+	border-radius: 10px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	padding: 20px;
+	margin: 10px;
+	width: 400px;
+  }
+  
+  .form-container h1 {
+	margin-bottom: 20px;
+	text-align: center;
+  }
+  
+ 
+  
+  .form-container input[type="text"],
+  .form-container input[type="email"],
+  .form-container input[type="password"] {
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	display: block;
+	font-size: 16px;
+	margin-bottom: 10px;
+	padding: 10px;
+	width: 100%;
+  }
+  
+  .form-container input[type="submit"] {
+	background-color: #4CAF50;
+	border: none;
+	border-radius: 5px;
+	color: #fff;
+	cursor: pointer;
+	font-size: 16px;
+	padding: 10px;
+	width: 100%;
+  }
+  
+  .form-container input[type="submit"]:hover {
+	background-color: #3e8e41;
+  }
+   */

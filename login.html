@@ -1,0 +1,41 @@
+<!-- This is an HTML code for a login page. -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login Page</title>
+  <!-- This link imports the Font Awesome CSS library -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- This link imports a custom CSS stylesheet -->
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+  <div class="container">
+    <div class="form-container login-form">
+      <h1>Login using</h1>
+      <div>
+        <a href="#" class="fa fa-linkedin"></a>
+        <a href="#" class="fa fa-google"></a>
+        <a href="#" class="fa fa-facebook"></a>
+      </div>
+      <div>OR</div>
+      <form>
+        <div><input type="text" id="username" name="username" placeholder="Enter username"></div>
+        <div><input type="password" id="password" name="password" placeholder="Enter password"></div>
+        <div><button type="button" class="btn" onclick="loginTest()">Login</button></div>
+      </form>
+      <div>
+        <p>Looking to create an account
+        <p onclick="register()">Click to Register.</p>
+        </p>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </div>
+</body>
+
+</html>
